@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="title text-center py-8 text-3xl font-bold text-slate-400">
+        <h1>Personal Finance</h1>
+    </div>
+    <section class="flex justify-center items-center pb-10">
+        <div class="bg-neutral-50 px-20 py-8 text-center"> 
+            <div class="text-center pb-4">
+                <h2 class="pb-5 font-bold">Income</h2>
+                <div class="flex justify-center items-center">
+                    <h2 class="pr-3.5">Income:</h2>
+                    <input type="text" class="bg-gray-200 px-2 py-1 income">
+                </div>
+            </div>
+            <div class="text-center">
+                <h2 class="pb-5 font-bold">Expenses</h2>
+                <div class="flex justify-center items-center pb-2">
+                    <h2 class="">Food:</h2>
+                    <input type="text" class="bg-gray-200 px-2 py-1 ml-7 food">
+                </div>
+                <div class="flex justify-center items-center pb-2">
+                    <h2 class="">Rent:</h2>
+                    <input type="text" class="bg-gray-200 px-2 py-1 ml-8 rent">
+                </div>
+                <div class="flex justify-center items-center pb-2">
+                    <h2 class="">Clothes:</h2>
+                    <input type="text" class="bg-gray-200 px-2 py-1 ml-3.5 clothes">
+                </div>
+            </div>
+            <div class="pt-4">
+                <button class="bg-sky-400 px-10 py-3 border rounded text-white calculation">Calculate</button>
+            </div>
+            <div class="button">
+
+            </div>
+            <div class="mt-4">
+                <h2 class="pb-2">Total Expenses: <span class="total">0</span></h2>
+                <h2>Balance: <span class="balance">0</span></h2>
+            </div>
+            <div class="flex">
+                <div class="flex justify-center items-center">
+                    <h2 class="">Save:</h2>
+                    <input type="text" class="bg-gray-200 px-2 py-1 ml-8 save">
+                </div>
+                <div class="pt-2 px-4">%</div>
+                <div class="">
+                    <button class="bg-sky-400 px-8 py-2 border rounded text-white save-button">Save</button>
+                </div>
+            </div>
+            <div class="two-button"></div>
+            <div class="pt-4 font-medium">
+                <h2>Saving Amount: <span class="saving">0</span></h2>
+                <h2>Remaining Balance: <span class="saving-balance">0</span></h2>
+            </div>
+        </div>
+    </section>
+    <script src="script/app.js"></script>
+</body>
+</html>
